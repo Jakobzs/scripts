@@ -17,9 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Roblox/setup-foreman@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ewd3v/setup-luau@v0.1.0
 
       - name: Download global Roblox types
         shell: bash
