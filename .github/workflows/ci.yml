@@ -7,7 +7,9 @@ on:
     branches:
       - '**' # Triggers on any branch push
 
-# from https://github.com/Roblox/setup-foreman
+# sources:
+# workflow: https://github.com/Roblox/setup-foreman
+# ci: https://github.com/Roblox/roact/blob/master/.github/workflows/ci.yml#L12
 
 jobs:
   analyze:
