@@ -1,1 +1,1 @@
-local player: boolean = false
+local player: string = false
