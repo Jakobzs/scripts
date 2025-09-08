@@ -1,1 +1,1 @@
-local world: string = false
+local world: boolean = false
